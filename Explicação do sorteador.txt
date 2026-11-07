@@ -1,0 +1,22 @@
+Entendi perfeitamente, Igor! Menos "juridiquês" de programador e mais papo direto. Se você for apresentar isso na reunião, o pessoal quer saber o teimplo real da coisa: o que você abriu, onde clicou e como a mágica aconteceu.
+
+Aqui está o seu roteiro "papo reto" para a reunião:
+
+🎤 Roteiro: "Como eu montei o Market Draw"
+1. Preparando o Terreno (A Pasta)
+"Galera, a primeira coisa que fiz foi organizar a casa. Tirei o projeto daquelas pastas bagunçadas de Desktop e Cloud (que dão erro de permissão) e joguei direto no C:\projetos. Abri o terminal lá dentro e dei um php artisan serve. Pronto, o motor do site estava ligado na porta 8000."
+
+2. Criando o Caminho (A Rota)
+"Aí fui no arquivo de rotas (web.php). Criei um endereço chamado /sorteio. Pensei assim: quando o usuário entrar aqui, o PHP já escolhe um ganhador na hora, escondido lá no fundo, e guarda esse nome pra gente usar depois."
+
+3. Montando a "Cara" do Site (O Front-end)
+"Depois abri a pasta views e criei o sorteador.blade.php.
+
+O Visual: Usei um fundo escuro (Dark Mode) pra parecer um terminal de trader.
+
+Bootstrap: Usei só pra colocar aquela barra lá em cima (Navbar) e o rodapé rapidinho, pra não ficar parecendo site amador.
+
+A Lista: Fiz um comando pro HTML pegar todos os nomes que eu tinha e espalhar eles em cards na tela."
+
+4. A Hora do Show (O JavaScript)
+"Por fim, fiz o botão. Quando você clica em 'Sortear', entra um código em JavaScript que faz os nomes ficarem piscando bem rápido. Isso é só pro usuário sentir aquele suspense, porque o PHP já tinha me contado quem era o vencedor lá no começo. No final de 2 segundos, o nome do ganhador brilha em dourado e o sorteio acaba."

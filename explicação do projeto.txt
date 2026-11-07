@@ -1,0 +1,19 @@
+Pasta/Arquivo	O que faz
+
+app/Models	Trabalha com os dados e o banco
+app/Http/Controllers	Controla as ações do sistema
+routes/web.php	Define os caminhos das páginas
+resources/views	Contém as telas do sistema (HTML/Blade)
+database/migrations	Cria e estrutura as tabelas do banco
+database/seeders	Insere dados de teste
+public	Entrada pública da aplicação
+config	Configurações do Laravel
+storage	Armazena logs e arquivos
+vendor	Bibliotecas e dependências do Laravel 
+
+
+- Routes = caminho.
+- Controller = lógica/controle.
+- Model = dados.
+- View = tela.
+- Migration = estrutura do banco.
